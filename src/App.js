@@ -1,7 +1,7 @@
 import './App.scss';
 import Tag from "./components/Tag"
 import Price from "./components/Price"
-import Navbar from './components/Navbar';
+import Navbar from './components/NavBar';
 
 
 
@@ -10,8 +10,7 @@ function App() {
     <div className="App">
     
       <header className="App-header">
-      <img width="250" height="57" src="https://pintarconacuarelas.com/wp-content/uploads/2021/03/cropped-logo-pintar-con-acuarelas-gris.png" class="custom-logo entered lazyloaded" alt="Pintar Con Acuarelas" data-lazy-src="https://pintarconacuarelas.com/wp-content/uploads/2021/03/cropped-logo-pintar-con-acuarelas-gris.png" data-ll-status="loaded"></img>
-      <Navbar/>
+     <Navbar/>
      </header>
       <main className='products'>
         <div className='card'>
